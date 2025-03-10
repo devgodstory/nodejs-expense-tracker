@@ -2,12 +2,9 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.js", 
+        "src": "server.js", 
         "use": "@vercel/node"
       }
-    ],
-    "env": {
-      "DB_URI": "mongodb+srv://devgodstory:z8Sh5Dzb5WN3PSgc@expensetrackercluster0.55cof.mongodb.net/"
-    }
+    ]
   }
   
